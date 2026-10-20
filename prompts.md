@@ -16,20 +16,126 @@ distinto, y sin este archivo no se distinguen.
 - Incluye también los que **no funcionaron**. Suelen ser los más útiles de leer.
 - `Modelo` y `Herramienta` en todos. Si cambiaste de una a otra a mitad, se nota aquí.
 
-Borra el ejemplo de abajo cuando escribas el primero.
-
 ---
 
 ## Prompt 1
 
-**Modelo:** Opus 1M xHigh
-**Herramienta:** Claude Code
+**Modelo:** _(rellenar)_
+**Herramienta:** Claude Code — copia con harness
 
 ```
-Este es el ejemplo. Bórralo.
-
-El prompt va aquí dentro, entero y con sus saltos de línea,
-para que se sepa dónde empieza y dónde acaba.
+/mcp
 ```
 
-**Qué salió:** (opcional, una línea) funcionó a la primera / tuve que insistir / me inventó una ruta que no existe.
+## Prompt 2
+
+**Modelo:** _(rellenar)_
+**Herramienta:** Claude Code — copia con harness
+
+```
+carloslopezv78
+```
+
+## Prompt 3
+
+**Modelo:** _(rellenar)_
+**Herramienta:** Claude Code — copia con harness
+
+```
+lista los elementos del proyecto Flow en mi Jira
+```
+
+## Prompt 4
+
+**Modelo:** _(rellenar)_
+**Herramienta:** Claude Code — copia con harness (desde `frontend/`)
+
+```
+/init
+```
+
+## Prompt 5
+
+**Modelo:** _(rellenar)_
+**Herramienta:** Claude Code — copia con harness (desde `frontend/`)
+
+```
+qué está prohibido (por ejemplo, no tocar
+backend/ , que es de solo lectura; no editar 
+README.md ni archivos generados) y las
+convenciones del frontend (shadcn/ui, un único módulo de API con 
+VITE_API_URL ,
+mapear los errores 422 a cada campo, lint y build deben pasar, listar supuestos)
+```
+
+## Prompt 6
+
+**Modelo:** _(rellenar)_
+**Herramienta:** Claude Code — copia con harness (desde `frontend/`)
+
+```
+guardalo y verifica con /memory
+```
+
+## Prompt 7
+
+**Modelo:** _(rellenar)_
+**Herramienta:** Claude Code — copia con harness (desde `frontend/`)
+
+```
+/memory
+```
+
+## Prompt 8
+
+**Modelo:** Opus 5.5
+**Herramienta:** Claude Code — copia con harness
+
+```
+Implementa el ticket FLOW-1 de mi Jira.
+```
+
+## Prompt 9
+
+**Modelo:** _(rellenar)_
+**Herramienta:** Claude Code — copia sin harness
+
+```
+Implementa el ticket FLOW-1 de mi Jira.
+```
+
+## Prompt 10
+
+**Modelo:** Opus 5.5
+**Herramienta:** Claude Code — copia con harness
+
+```
+crea docs\harness\comparacion.md
+```
+
+## Prompt 11
+
+**Modelo:** _(rellenar)_
+**Herramienta:** Claude Code — copia sin harness
+
+```
+crea docs\harness\comparacion.md
+```
+
+## Prompt 12
+
+**Modelo:** Opus 5.5
+**Herramienta:** Claude Code — copia con harness
+
+```
+rellena prompts.md copiando desde C:\Users\carlo\.claude\history.jsonl
+```
+
+## Prompt 13
+
+**Modelo:** _(rellenar)_
+**Herramienta:** Claude Code — copia sin harness
+
+```
+rellena prompts.md copiando desde C:\Users\carlo\.claude\history.jsonl
+```
